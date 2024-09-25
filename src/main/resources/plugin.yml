@@ -2,3 +2,6 @@ name: CreazyLibBook
 version: '${version}'
 main: pl.creazy.creazylibbook.CreazyLibBook
 api-version: '1.21'
+commands:
+  user:
+    description: manage user data
