@@ -1,17 +1,8 @@
 package pl.creazy.creazylibbook;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import pl.creazy.creazylib.plugin.CreazyPlugin;
+import pl.creazy.creazylib.plugin.constraints.Plugin;
 
-public final class CreazyLibBook extends JavaPlugin {
-
-    @Override
-    public void onEnable() {
-        // Plugin startup logic
-
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
+@Plugin
+public final class CreazyLibBook extends CreazyPlugin {
 }
