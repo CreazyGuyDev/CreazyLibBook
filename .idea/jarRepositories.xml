@@ -26,5 +26,10 @@
       <option name="name" value="sonatype" />
       <option name="url" value="https://oss.sonatype.org/content/groups/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="creazy-repo" />
+      <option name="name" value="creazy-repo" />
+      <option name="url" value="https://repository.creazy.pl" />
+    </remote-repository>
   </component>
 </project>

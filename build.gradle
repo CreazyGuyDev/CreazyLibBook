@@ -23,6 +23,7 @@ repositories {
 
 dependencies {
     compileOnly "org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT"
+    compileOnly "pl.creazy:CreazyLib:1.0-SNAPSHOT"
 }
 
 def targetJavaVersion = 17
